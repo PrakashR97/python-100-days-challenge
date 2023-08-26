@@ -87,10 +87,11 @@ days=(rest_age_to_live*365)
 
 weeks=days/7
 
+#g
 months=days/30
 
 
-
+print(F"You have {days} days, {weeks} weeks, and {months} months left.")
 
 
 
