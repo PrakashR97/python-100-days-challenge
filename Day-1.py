@@ -66,10 +66,28 @@ print(round(8/3,1))
 7//6 #integer number
 
 
+score=0
+height=1.8
+isWinning=True
+
+#f-string
+print(f"your scoure is {score}, your height is {height}, you are winning is {isWinning}")
 
 
 
 
+age=input("what is your current age ?")
+
+
+print(type(age))
+rest_age_to_live=100-int(age)
+
+
+days=(rest_age_to_live*365)
+
+weeks=days/7
+
+months=days/30
 
 
 
