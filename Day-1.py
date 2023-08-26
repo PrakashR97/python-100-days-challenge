@@ -97,7 +97,11 @@ print(F"You have {days} days, {weeks} weeks, and {months} months left.")
 #Each person should pay (150.00 / 5) * 1.12 = 33.6
 #Format the result to 2 decimal places = 33.60
 
-_cal=(150.00/5)*1.12
 
-formatted_amount="{:.2f}".format(_cal)
-print(formatted_amount)
+
+bill=input()
+tip=input()
+people=input()
+if bill>150:
+    _final_amount=(bill)+ (bill/people*(tip/100))
+    print(_final_amount)
