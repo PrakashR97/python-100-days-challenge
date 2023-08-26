@@ -84,10 +84,7 @@ rest_age_to_live=100-int(age)
 
 
 days=(rest_age_to_live*365)
-
 weeks=days/7
-
-#g
 months=days/30
 
 
@@ -95,3 +92,12 @@ print(F"You have {days} days, {weeks} weeks, and {months} months left.")
 
 
 
+#If the bill was $150.00, split between 5 people, with 12% tip.
+
+#Each person should pay (150.00 / 5) * 1.12 = 33.6
+#Format the result to 2 decimal places = 33.60
+
+_cal=(150.00/5)*1.12
+
+formatted_amount="{:.2f}".format(_cal)
+print(formatted_amount)
