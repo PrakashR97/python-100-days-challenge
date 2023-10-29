@@ -58,11 +58,10 @@ for i in range(0,nr_numbers):
    _numbers=random.randint(0,len(numbers)-1)
    _pwd_list.append(numbers[_numbers])
 
-print(_pwd_list)
+
 
 random.shuffle(_pwd_list)
 
-print(_pwd_list)
 
 # g^2jk8&P
 final_pwd=""
